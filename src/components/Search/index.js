@@ -7,13 +7,14 @@ function Search(props) {
         <form className="form-inline m-2">
           <input
             className="form-control mr-sm-2"
-            value={props.value}
+            id="search"
+            value={props.search}
             name="search"
             onChange={props.handleInputChange}
             type="search"
             placeholder="Search"
             aria-label="Search"
-          />          
+          />
         </form>
       </nav>
     </div>
