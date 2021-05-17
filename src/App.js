@@ -1,16 +1,15 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Table from "./components/Table";
 import Header from "./components/Header";
-import Search from "./components/Search";
+import Container from "./components/Container";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Search />
-      <Table />
+      <Container />
+      
     </div>
   );
 }
