@@ -29,7 +29,7 @@ Run `npm install` to install all dependencies
 
 ## Usage
 
-Deployed Link: 
+Deployed Link: https://patelg1.github.io/employee_directory/
 
 Demo:
 
