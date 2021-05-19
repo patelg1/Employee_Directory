@@ -7,7 +7,7 @@ function Header() {
       <header>
         <h1 className="fw-bold">Employee Directory</h1>
         <h6>
-          Click on the Name category to filter employee by first name or use the
+          Click on the Name category to sort employee's by first name or use the
           search box to narrow your results
         </h6>
       </header>
