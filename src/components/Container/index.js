@@ -39,21 +39,20 @@ class Container extends Component {
   handleInputChange = (event) => {
     const value = event.target.value;
     this.setState({ search: value });
-    this.employeeFilter(value);
-    console.log(this.state.search);
+    this.employeeFilter(value);       
   };
 
   handleFormSubmit = (event) => {
     event.preventDefault();
   };
 
-  employeeFilter = (input) => {
+  employeeFilter = (input) => {    
     this.setState({
       employeesFiltered: this.state.employees.filter((employee) => {
         return employee.name.first
           .toUpperCase()
-          .concat(" ", employee.name.last.toUpperCase().includes(input));
-      }),
+          .concat(" ", employee.name.last.toUpperCase()).includes(input.toUpperCase());
+      })
     });
     console.log(this.state.employeesFiltered);
   };
